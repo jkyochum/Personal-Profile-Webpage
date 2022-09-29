@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/red-rock-canyon.jpg') no-repeat top center ;
+  background: url('images/red-rock-canyon.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,8 +77,12 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 #projects-header{
-  background-color: blue;
-  z-index: 2;
+  background: url('images/projects-background.jpg') no-repeat top center;
+  background-size: cover; 
+}
+#projects-header h1{
+  /*background: rgba(236, 236, 236, .5);*/
+  color: white;
 }
 .tag {
   background-color: #efefef;
@@ -155,9 +159,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -187,6 +188,9 @@ a.social:hover {
     min-height: 470px;
   }
 
+  #projects-header{
+    padding-top: 25%;
+  }
   .nav {
     max-width: 1200px;
     padding: 0 30px;
