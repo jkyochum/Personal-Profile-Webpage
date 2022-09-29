@@ -20,6 +20,9 @@ a {
 a:hover {
   color: #6633ff;
 }
+.external-link{
+  color: #ff9904;
+}
 
 /* Section Styles */
 
@@ -81,7 +84,6 @@ header .profile-image:hover {
   background-size: cover; 
 }
 #projects-header h1{
-  /*background: rgba(236, 236, 236, .5);*/
   color: white;
 }
 .tag {
@@ -105,6 +107,9 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.card ul{
+  padding-left: 16px;
 }
 .card:hover {
   border-color: #ff99ff;
