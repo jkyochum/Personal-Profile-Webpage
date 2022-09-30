@@ -183,6 +183,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
+      flex-wrap: wrap;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -221,3 +222,11 @@ a.social:hover {
 
 }
 
+@media screen and (min-width: 983px){
+  
+  #projects-header{
+    padding-top: 200px;
+  }
+
+
+}
