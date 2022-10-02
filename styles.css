@@ -98,7 +98,7 @@ header .profile-image:hover {
 }
 
 #projects-header {
-  background: url('images/projects-background.jpg') no repeat top center;
+  background: url('images/projects-background.jpg') no-repeat top center;
   background-size: cover;
 }
 
@@ -107,7 +107,7 @@ header .profile-image:hover {
 }
 
 #personal-header {
-  background-image: url('images/waterfall.jpg') no repeat top center;
+  background-image: url('images/waterfall.jpg') no-repeat top center;
 }
 
 .tag {
