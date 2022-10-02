@@ -97,17 +97,17 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-#projects-header {
-  background: url('images/projects-background.jpg') no-repeat top center;
-  background-size: cover;
-}
-
 #projects-heading,
 #personal-heading {
   color: white;
   background-color: #03160847;
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
+}
+
+#projects-header {
+  background: url('images/projects-background.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 #personal-header {
@@ -246,7 +246,11 @@ a.social:hover {
   }
 
   #projects-header {
-    padding-top: 25%;
+    padding-top: 200px;
+  }
+
+  #personal-header {
+    max-height: 100px;
   }
 
   .nav {
@@ -276,11 +280,4 @@ a.social:hover {
 
 }
 
-@media screen and (min-width: 983px) {
-
-  #projects-header {
-    padding-top: 200px;
-  }
-
-
-}
+@media screen and (min-width: 983px) {}
