@@ -33,7 +33,7 @@ main .card a {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
