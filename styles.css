@@ -102,8 +102,12 @@ header .profile-image:hover {
   background-size: cover;
 }
 
-#projects-header h1 {
+#projects-heading,
+#personal-heading {
   color: white;
+  background-color: #03160847;
+  width: 80%;
+  margin: auto;
 }
 
 #personal-header {
@@ -160,6 +164,19 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.picture-holder {
+  text-align: center;
+}
+
+.picture-holder img {
+  width: 40%;
+  flex-wrap: wrap;
+  max-width: 189px;
+  justify-content: space-evenly;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 footer {
