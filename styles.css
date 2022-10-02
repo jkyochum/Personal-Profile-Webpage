@@ -98,7 +98,7 @@ header .profile-image:hover {
 }
 
 #projects-header {
-  background-image: url('images/projects-background.jpg') no repeat top center;
+  background: url('images/projects-background.jpg') no repeat top center;
   background-size: cover;
 }
 
