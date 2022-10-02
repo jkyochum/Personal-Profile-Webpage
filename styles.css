@@ -95,6 +95,7 @@ header .profile-image {
 
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border: 10px solid yellow;
 }
 
 main p {
