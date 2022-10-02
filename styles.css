@@ -97,12 +97,17 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
+main p {
+  line-height: 1.4em;
+}
+
 #projects-heading,
 #personal-heading {
   color: white;
   background-color: #03160847;
   width: 80%;
   margin: 20px auto;
+  border-radius: 5px;
 }
 
 #personal-heading {
@@ -150,6 +155,10 @@ header .profile-image:hover {
 
 .card:hover {
   border-color: #ff99ff;
+}
+
+.personal-card p {
+  padding-bottom: 15px;
 }
 
 ul.skills {
