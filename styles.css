@@ -23,6 +23,10 @@ a:hover {
   color: #6633ff;
 }
 
+main .card a {
+  text-decoration: underline;
+}
+
 .external-link {
   color: #ff9904;
 }
@@ -91,12 +95,16 @@ header .profile-image:hover {
 }
 
 #projects-header {
-  background: url('images/projects-background.jpg') no-repeat top center;
+  background: url('../images/projects-background.jpg') no-repeat top center;
   background-size: cover;
 }
 
 #projects-header h1 {
   color: white;
+}
+
+#personal-header {
+  background: url('../images/waterfall.jpg') no repeat top center;
 }
 
 .tag {
