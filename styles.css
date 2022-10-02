@@ -71,10 +71,13 @@ main .card a {
 
 header {
   text-align: center;
-  background: url('images/red-rock-canyon.jpg') no-repeat top center;
-  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+}
+
+#main-header {
+  background: url('images/red-rock-canyon.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 header {
@@ -95,7 +98,7 @@ header .profile-image:hover {
 }
 
 #projects-header {
-  background: url('../images/projects-background.jpg') no-repeat top center;
+  background-image: url('images/projects-background.jpg') no repeat top center;
   background-size: cover;
 }
 
@@ -104,7 +107,7 @@ header .profile-image:hover {
 }
 
 #personal-header {
-  background: url('../images/waterfall.jpg') no repeat top center;
+  background-image: url('images/waterfall.jpg') no repeat top center;
 }
 
 .tag {
