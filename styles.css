@@ -107,7 +107,8 @@ header .profile-image:hover {
 }
 
 #personal-header {
-  background-image: url('images/waterfall.jpg') no-repeat top center;
+  background: url('images/waterfall.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 .tag {
