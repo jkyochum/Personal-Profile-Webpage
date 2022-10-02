@@ -105,6 +105,10 @@ header .profile-image:hover {
   margin: 20px auto;
 }
 
+#personal-heading {
+  font-size: 2.5em;
+}
+
 #projects-header {
   background: url('images/projects-background.jpg') no-repeat top center;
   background-size: cover;
@@ -246,6 +250,10 @@ a.social:hover {
   }
 
   #projects-header {
+    padding-top: 160px;
+  }
+
+  #personal-header {
     padding-top: 160px;
   }
 
